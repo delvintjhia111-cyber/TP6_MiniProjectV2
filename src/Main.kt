@@ -25,7 +25,7 @@ fun main() {
                 print("Judul tugas: ")
                 val judul = readln()
                 println(if (service.tambah(id,judul))
-                "tugas ditambahkan" else "data tidak valid atau ID duplikat")
+                "tugas ditambahkan" else "data tidak Valid atau ID duplikat")
             }
             2 -> service.tampilkan()
             3 -> {
