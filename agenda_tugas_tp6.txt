@@ -1,0 +1,2 @@
+T01;BINDO;true
+T02;INFORMATIKA;false
