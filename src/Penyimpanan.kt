@@ -1,6 +1,6 @@
 import java.io.File
 
-object Penyimpanan {
+object Penyimpanan{
     fun muat(file: File): MutableList<Tugas> {
         val hasil = mutableListOf<Tugas>()
         if (!file.exists()) return hasil
