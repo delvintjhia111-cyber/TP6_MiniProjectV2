@@ -27,7 +27,7 @@ class TugasService(private val daftar: MutableList<Tugas>) {
         tugas.selesai = !tugas.selesai
         return true
     }
-    fun hapus(id: String): Boolean {
+    fun hapus(id: String): Boolean{
         val tugas = cari(id) ?: return false
         daftar.remove(tugas)
         return true
